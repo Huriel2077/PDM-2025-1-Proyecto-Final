@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores principales -->
+    <color name="purple_500">#6200EE</color> <!-- Morado principal -->
+    <color name="purple_700">#3700B3</color> <!-- Morado oscuro -->
+    <color name="teal_200">#03DAC5</color> <!-- Acuamarina claro -->
+    <color name="teal_700">#018786</color> <!-- Acuamarina oscuro -->
+
+    <!-- Colores personalizados -->
+    <color name="colorPrimary">#42034E</color> <!-- Morado personalizado -->
+    <color name="colorPrimaryDark">#300236</color> <!-- Morado oscuro personalizado -->
+    <color name="colorAccent">#FF4081</color> <!-- Acento rosado -->
+
+    <!-- Colores neutros -->
+    <color name="black">#FF000000</color> <!-- Negro para texto -->
+    <color name="white">#FFFFFFFF</color> <!-- Blanco para texto y fondos -->
+    <color name="gray">#9E9E9E</color> <!-- Gris estándar -->
+    <color name="light_gray">#D3D3D3</color> <!-- Gris claro -->
+
+    <!-- Colores adicionales -->
+    <color name="error_red">#B00020</color> <!-- Rojo para errores -->
+    <color name="success_green">#4CAF50</color> <!-- Verde para éxito -->
+
+    <!-- Colores de texto -->
+    <color name="text_white">#FFFFFF</color> <!-- Blanco para texto -->
+    <color name="text_black">#000000</color> <!-- Negro para texto -->
+</resources>

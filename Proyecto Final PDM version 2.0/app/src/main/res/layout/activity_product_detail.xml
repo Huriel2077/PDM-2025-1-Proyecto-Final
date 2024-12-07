@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Carrusel de imágenes (usando ViewPager para un carrusel de imágenes) -->
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/product_image_carousel"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Nombre del producto -->
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre del producto"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Precio del producto -->
+        <TextView
+            android:id="@+id/product_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$0.00"
+            android:textSize="18sp"
+            android:textColor="@color/purple_500"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Contador de cantidad -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <!-- Botón de disminuir cantidad -->
+            <Button
+                android:id="@+id/btn_decrease_quantity"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="menos"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/purple_500"
+                android:fontFamily="sans-serif"
+                android:elevation="4dp" />
+
+            <!-- Texto para la cantidad -->
+            <TextView
+                android:id="@+id/quantity_text"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="16sp"
+                android:background="@drawable/quantity_background"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp" />
+
+            <!-- Botón de aumentar cantidad -->
+            <Button
+                android:id="@+id/btn_increase_quantity"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="más"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/purple_500"
+                android:fontFamily="sans-serif"
+                android:elevation="4dp" />
+        </LinearLayout>
+
+        <!-- Botones de acción -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <!-- Botón de Comprar ahora -->
+            <Button
+                android:id="@+id/btn_buy_now"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Comprar ahora"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/purple_500"
+                android:layout_marginEnd="8dp" />
+
+            <!-- Botón de Agregar al carrito -->
+            <Button
+                android:id="@+id/btn_add_to_cart"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Agregar al carrito"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/purple_500" />
+        </LinearLayout>
+
+        <!-- Botón para regresar al catálogo -->
+        <Button
+            android:id="@+id/btn_back_to_catalog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regresar al Catálogo"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/purple_500"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título del resumen del carrito -->
+    <TextView
+        android:id="@+id/cart_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resumen del Carrito"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp" />
+
+    <!-- RecyclerView para mostrar la lista de productos en el carrito -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cart_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="16dp" />
+
+    <!-- TextView para mostrar el precio total del carrito -->
+    <TextView
+        android:id="@+id/total_price_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: $ 0.00"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="end"
+        android:paddingBottom="16dp" />
+
+    <!-- Botón para proceder a la compra o finalizar la compra -->
+    <Button
+        android:id="@+id/checkout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceder a la compra"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
