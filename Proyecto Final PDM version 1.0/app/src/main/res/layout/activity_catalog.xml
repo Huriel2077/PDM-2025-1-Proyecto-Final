@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CatalogActivity">
+
+    <!-- Barra superior con bienvenida y botón de carrito -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="#6200EE">
+
+        <!-- Texto de bienvenida -->
+        <TextView
+            android:id="@+id/welcome_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bienvenido"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Botón del carrito -->
+        <Button
+            android:id="@+id/cart_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carrito"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#6200EE"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+
+    <!-- RecyclerView para el catálogo de productos -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:clipToPadding="false" />
+
+</LinearLayout>
