@@ -3,6 +3,7 @@ Programación de Dispositivos Móviles 2025-1, Proyecto Final
 
 Integrantes:
 - Osorio Escandón Huriel | Huriel117@ciencias.unam.mx | 317204652
+- Alan Bellon García
 
 Nota:
 
