@@ -1,13 +1,15 @@
 # PDM-2025-1-Proyecto-Final
-Programación de Dispositivos Móviles 2025-1, Proyecto Final
+Programación de Dispositivos Móviles 2025-1, Proyecto Final "La Casa del Coleccionista"
 
 Integrantes:
 - Osorio Escandón Huriel | Huriel117@ciencias.unam.mx | 317204652
-- Alan Bellon García
+- Alan Bellon García | AlanBellon@ciencias.unam.mx | 319159565
 
 Nota:
 
-La versión Proyecto Final PDM version 1.0 compila correctamente, pero es una version más temprana la cual tiene un login y registro de cuentas
-en la base de datos funcional, la cual permite crear cuentas e iniciar sesión correctamente, comunicando al catalogo de productos.
+En el repositorio PDM-2025-1-Proyecto-Final existen 3 ramas:
+- Rama main: contiene el README del proyecto.
+- Rama version-1.0: contiene una versión temprana del proyecto, con avances como el login/registro, catalogo y la base de datos.
+**- Rama version-2.0: contiene la versión FINAL/DEFINITIVA para esta entrega.
 
-La version Proyecto Final PDM version 2.0 es la definitiva para esta entrega.
+Las ramas fueron creadas para documentar el avance de proyecto, gestionando de mejor manera las versiones del mismo.
